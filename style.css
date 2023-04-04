@@ -1,0 +1,46 @@
+#game-container {
+	width: 400px;
+	height: 600px;
+	border: 1px solid black;
+	position: relative;
+}
+
+#car {
+	width: 50px;
+	height: 80px;
+	background-color: red;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.obstacle {
+	width: 50px;
+	height: 50px;
+	background-color: black;
+	position: absolute;
+}
+
+.rotary {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 1px solid black;
+	position: absolute;
+}
+
+.rotary-1 {
+	top: 200px;
+	left: 100px;
+}
+
+.rotary-2 {
+	top: 400px;
+	left: 250px;
+}
+
+.rotary-3 {
+	top: 100px;
+	left: 300px;
+}
